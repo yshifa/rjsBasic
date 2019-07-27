@@ -1,37 +1,21 @@
 import React from 'react';
-import Header from "./Header";
-import NewsListItem from "./NewsListitem";
-//import logo from './logo.svg';
-//import './App.css';
+import NewsPage from "./NewsPage";
 
-const App = () => {
-  return(
+// import Playground from './Playground';
+function App(){
+  return (
     <div>
-      <Header/>
-      <NewsListItem/>
+      <NewsPage />
+      {/* <Playground name="Taj" age="23"/>
+      <Playground name="tajammul"/> */}
     </div>
   );
 }
 
-/*function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}*/
+
+
+
 
 export default App;
+
+

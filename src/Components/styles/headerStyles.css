@@ -1,5 +1,11 @@
-.header{
-    background-color: aqua;
+.headerStyle {
+    background-color: rgba(87,155,158,0.491);
     text-align: center;
+}
+
+.headerText {
+    color: rgb(255,255,255);
+    margin: 0;
+    font-size: 3em;
 }
 

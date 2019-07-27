@@ -4,11 +4,10 @@ import './styles/headerStyles.css';
 
 const Header = () => {
     return(
-        <div className="header" >
-            Header
+        <div className="headerStyle" >
+            <h1 className="headerText">News Feed</h1>   
         </div>
     );
 }
-
 export default Header;
 
